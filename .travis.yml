@@ -1,0 +1,15 @@
+language: go
+go_import_path: github.com/shuntingyard/truspyd
+sudo: false
+
+go:
+  - 1.10.x
+  - 1.11.x
+  - 1.12.x
+  - master
+
+before_install:
+  - go get github.com/kardianos/service
+
+script:
+  - go test
