@@ -1,7 +1,7 @@
 # truspyd - A multi-platform service for tracking TCP, RAW and UDP sockets
 
 [![Travis](https://travis-ci.org/shuntingyard/truspyd.svg?branch=master)](https://travis-ci.org/shuntingyard/truspyd)
-[![License](https://img.shields.io/github/license/shuntingyard/truspyd.svg)](http://github.com/shuntingyard/flowproc/blob/master/LICENSE.txt)
+[![License](https://img.shields.io/github/license/shuntingyard/truspyd.svg)](http://github.com/shuntingyard/truspyd/blob/master/LICENSE.txt)
 
 Track socket details in order to gain network activity insights on a
 per process/program level and make these insights available to the analytics
