@@ -1,0 +1,10 @@
+[Unit]
+Description=TCP/RAW/UDP socket activity tracker
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/tobias/go/bin/truspyd
+
+[Install]
+WantedBy=multi-user.target

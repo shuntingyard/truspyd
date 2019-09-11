@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- SOURCE https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html -->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.github.shuntingyard.truspyd</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>truspyd</string>
+        <!--string>arg1</string-->
+    </array>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>
