@@ -9,5 +9,5 @@ func Reverse(s string) string {
 		j := len(b) - i - 1
 		b[i], b[j] = b[j], b[i]
 	}
-    return string(b)
+	return string(b)
 }
